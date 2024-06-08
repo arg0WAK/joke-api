@@ -1,0 +1,7 @@
+services:
+    web:
+        build: .
+        image: joke-api:latest
+        container_name: main
+        ports:
+            - "3000:3000"
