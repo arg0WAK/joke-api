@@ -9,7 +9,10 @@ const limiter = rateLimit({
             error: "Too many requests, please try again later.",
         });
     },
-    skip: (req) => req.originalUrl === "/any",
+    skip: (req) => {
+        const skipUrls = ["/any", "/health", "/docs"];
+        return skipUrls.some((url) => req.originalUrl === url);
+    },
 });
 
 export default limiter;
