@@ -1,9 +1,7 @@
-version: "3.8"
-
 services:
     web:
         image: arg0wak/joke-api:latest
-        container_name: main
+        container_name: joke-api-web
         ports:
             - "3000:3000"
         environment:
