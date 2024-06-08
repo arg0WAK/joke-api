@@ -131,8 +131,8 @@ router.get("/:category", (req, res) => {
             return res.json(
                 random === "true"
                     ? {
-                          error: "At least one translation query must be defined!",
-                      }
+                        error: "At least one translation query must be defined!",
+                    }
                     : languageJokes,
             );
         }
