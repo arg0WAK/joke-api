@@ -22,7 +22,7 @@ router.get("/", (req, res) => {
 });
 
 router.get("/health", (req, res) => {
-    return res.status(200).json({ status: "UP" });
+    return res.json({ status: "UP" });
 });
 
 /**
@@ -72,6 +72,7 @@ router.get("/health", (req, res) => {
 router.get("/:category", (req, res) => {
     const { category } = req.params;
     const { type: typeIndex, lang: langIndex, random } = req.query;
+    const response = json[category];
 
     if (category === "any") {
         const randomCategory = getRandomElement(categories);
@@ -80,19 +81,18 @@ router.get("/:category", (req, res) => {
         return res.redirect(
             randomCategory + (queryParams ? `?${queryParams}` : ""),
         );
-    } else {
     }
 
-    const response = json[category];
-    const selectedLanguages = response.genres;
-
-    if (!response)
+    if (!response) {
         return res.status(404).json({ error: "Category not found!" });
+    }
+
+    const selectedGenres = response.genres;
 
     if (langIndex && !typeIndex) {
         const allLanguages = new Set();
 
-        Object.values(selectedLanguages).forEach((languageGroup) => {
+        Object.values(selectedGenres).forEach((languageGroup) => {
             languageGroup.forEach((jokesObj) => {
                 Object.keys(jokesObj).forEach((lang) => allLanguages.add(lang));
             });
@@ -106,7 +106,7 @@ router.get("/:category", (req, res) => {
                 .json({ error: "Translation key not found!" });
         }
 
-        const allJokes = Object.values(selectedLanguages).flatMap(
+        const allJokes = Object.values(selectedGenres).flatMap(
             (languageGroup) =>
                 languageGroup.map((jokeObj) => jokeObj[langIndex]?.joke),
         );
@@ -123,7 +123,7 @@ router.get("/:category", (req, res) => {
     }
 
     if (typeIndex) {
-        const languageJokes = selectedLanguages[typeIndex];
+        const languageJokes = selectedGenres[typeIndex];
         if (!languageJokes)
             return res.status(404).json({ error: "Type not found!" });
 
