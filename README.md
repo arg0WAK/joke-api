@@ -15,7 +15,8 @@
         <img alt="Publish Docker Image" src="https://github.com/arg0WAK/joke-api/actions/workflows/publish-docker.yml/badge.svg?branch=main"/>
     </a>
 </span>
-<br/><br/>
+<br/>
+
 # JokeAPI
 
 A simple API that returns a random joke with multi languages. Free and Open Source Joke API, entirely self-hosted.
