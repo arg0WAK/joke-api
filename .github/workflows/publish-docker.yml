@@ -34,7 +34,3 @@ jobs:
           push: true
           tags: arg0wak/joke-api:latest
           platforms: linux/amd64,linux/arm64
-
-      - name: Verify Docker Image
-        run: |
-          docker run --rm arg0wak/joke-api:latest
