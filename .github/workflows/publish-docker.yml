@@ -13,6 +13,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Create .env file
+        run: echo "PORT=3000" > .env
+
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
         with:
