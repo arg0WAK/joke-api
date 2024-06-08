@@ -54,7 +54,7 @@ A simple API that returns a random joke with multi languages. Free and Open Sour
 
 ```json
 {
-"genres": {
+  "genres": {
     "political": [
         {
         "en": { "joke": "English joke about politics." },
@@ -66,9 +66,13 @@ A simple API that returns a random joke with multi languages. Free and Open Sour
         "ru": { "joke": "Политическая шутка на русском." }
         }
     ]
-}
+  }
 }
 ```
+
+## Postman Collection 
+[Open with Postman](https://www.postman.com/arg0wak/workspace/jokeapi/collection/26553043-bc1d0835-2999-4bb8-8d48-97e6d9b2f77c) | [Get JSON Collection](https://api.postman.com/collections/26553043-bc1d0835-2999-4bb8-8d48-97e6d9b2f77c?access_key=PMAT-01HZTAYB7EZ72EZAEFP8H6QFB8)
+
 
 ## Swagger Execution
 
