@@ -1,8 +1,8 @@
 import rateLimit from "express-rate-limit";
 
 const limiter = rateLimit({
-    windowMs: 5 * 60 * 1000,
-    max: 50,
+    windowMs: 60 * 60 * 1000,
+    max: 25,
     statusCode: 429,
     handler: (req, res) => {
         res.status(429).json({
