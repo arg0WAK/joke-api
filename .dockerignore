@@ -1,0 +1,9 @@
+node_modules/
+.idea/  
+.vscode/
+.git
+.gitignore
+.dockerignore
+.npm-debug.log
+.README.md
+.DS_Store

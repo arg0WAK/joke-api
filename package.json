@@ -1,0 +1,28 @@
+{
+  "name": "joke-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "arg0WAK",
+  "description": "A simple API that returns a random joke with multi languages. Free and Open Source Joke API, entirely self-hosted.",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": "https://github.com/arg0WAK/joke-api",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.4.0",
+    "prettier": "3.3.1"
+  }
+}

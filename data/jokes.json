@@ -1,0 +1,294 @@
+{
+	"jokes":{
+	   "general":{
+		  "genres":{
+			 "political":[
+				{
+					"en": {"joke": "Why did the politician bring a ladder to the election? Because he wanted to reach new heights in politics!"},
+					"tr": {"joke": "Politikacı seçime neden bir merdiven getirdi? Çünkü siyasette yeni zirvelere ulaşmak istedi!"},
+					"es": {"joke": "¿Por qué el político trajo una escalera a las elecciones? ¡Porque quería alcanzar nuevas alturas en la política!"},
+					"pt": {"joke": "Por que o político trouxe uma escada para a eleição? Porque ele queria alcançar novas alturas na política!"},
+					"fr": {"joke": "Pourquoi le politicien a-t-il apporté une échelle à l'élection ? Parce qu'il voulait atteindre de nouveaux sommets en politique !"},
+					"de": {"joke": "Warum hat der Politiker eine Leiter zur Wahl mitgebracht? Weil er in der Politik neue Höhen erreichen wollte!"},
+					"ru": {"joke": "Почему политик принес лестницу на выборы? Потому что он хотел достичь новых высот в политике!"}
+				  },
+				  {
+					"en": {"joke": "How many politicians does it take to change a light bulb? Two. One to change it and another one to change it back again!"},
+					"tr": {"joke": "Bir ışığı değiştirmek için kaç politikacı gerekir? İki. Biri değiştirmek için, diğeri de tekrar değiştirmek için!"},
+					"es": {"joke": "¿Cuántos políticos se necesitan para cambiar una bombilla? Dos. ¡Uno para cambiarla y otro para volver a cambiarla de nuevo!"},
+					"pt": {"joke": "Quantos políticos são necessários para trocar uma lâmpada? Dois. Um para trocar e outro para trocar novamente!"},
+					"fr": {"joke": "Combien de politiciens faut-il pour changer une ampoule ? Deux. Un pour la changer et un autre pour la rechanger !"},
+					"de": {"joke": "Wie viele Politiker braucht man, um eine Glühbirne zu wechseln? Zwei. Einer, um sie zu wechseln, und ein anderer, um sie wieder zu wechseln!"},
+					"ru": {"joke": "Сколько политиков нужно, чтобы поменять лампочку? Два. Один, чтобы поменять ее, и еще один, чтобы снова поменять ее!"}
+				  },
+				  {
+					"en": {"joke": "Why did the politician bring a map to the debate? Because he wanted to navigate around the tough questions!"},
+					"tr": {"joke": "Bir siyasetçi tartışmaya neden harita getirir? Zor soruların etrafından dolaşmak istediği için!"},
+					"es": {"joke": "¿Por qué el político trajo un mapa al debate? ¡Porque quería navegar alrededor de las preguntas difíciles!"},
+					"pt": {"joke": "Por que o político trouxe um mapa para o debate? Porque ele queria navegar ao redor das perguntas difíceis!"},
+					"fr": {"joke": "Pourquoi le politicien a-t-il apporté une carte au débat ? Parce qu'il voulait naviguer autour des questions difficiles !"},
+					"de": {"joke": "Warum hat der Politiker eine Karte zum Streitgespräch mitgebracht? Weil er die schwierigen Fragen umgehen wollte!"},
+					"ru": {"joke": "Почему политик принес карту на дебаты? Потому что он хотел обойти сложные вопросы!"}
+				  },
+				  {
+					"en": {"joke": "Why was the math book sad? Because it had too many problems, just like the Middle East!"},
+					"tr": {"joke": "Matematik kitabı neden üzgündür? Çünkü Orta Doğu gibi çok sorunu vardır!"},
+					"es": {"joke": "¿Por qué estaba triste el libro de matemáticas? ¡Porque tenía demasiados problemas, al igual que el Oriente Medio!"},
+					"pt": {"joke": "Por que o livro de matemática estava triste? Porque tinha muitos problemas, assim como o Médio Oriente!"},
+					"fr": {"joke": "Pourquoi le livre de mathématiques était-il triste ? Parce qu'il avait trop de problèmes, tout comme le Moyen-Orient!"},
+					"de": {"joke": "Warum war das Mathebuch traurig? Weil es zu viele Probleme hatte, genau wie die Naher Osten!"},
+					"ru": {"joke": "Почему учебник по математике был грустным? Потому что у него было слишком много проблем, как и у Ближний Восток!"}
+				  },
+				  {
+					"en": {"joke": "Why are politicians good at math? Because they know how to manipulate numbers well!"},
+					"tr": {"joke": "Politikacılar matematikte neden iyidir? Çünkü sayıları manipüle etmeyi iyi bilirler!"},
+					"es": {"joke": "¿Por qué los políticos son buenos en matemáticas? ¡Porque saben cómo manipular bien los números!"},
+					"pt": {"joke": "Por que os políticos são bons em matemática? Porque sabem como manipular bem os números!"},
+					"fr": {"joke": "Pourquoi les politiciens sont-ils doués en mathématiques ? Parce qu'ils savent bien manipuler les chiffres !"},
+					"de": {"joke": "Warum sind Politiker gut in Mathe? Weil sie wissen, wie man Zahlen gut manipuliert!"},
+					"ru": {"joke": "Почему политики хороши в математике? Потому что они хорошо умеют манипулировать числами!"}
+				  }
+			 ],
+			 "religional":[
+				{
+					"en": {"joke": "Why did the grape stop in the middle of the church service? Because it wanted to go into the wine business!"},
+					"tr": {"joke": "Üzüm kiliseye neden gitmiş? Çünkü şarap işine girmek istemiş!"},
+					"es": {"joke": "¿Por qué se detuvo la uva en medio del servicio de la iglesia? ¡Porque quería entrar en el negocio del vino!"},
+					"pt": {"joke": "Por que a uva parou no meio do serviço da igreja? Porque ela queria entrar no negócio do vinho!"},
+					"fr": {"joke": "Pourquoi le raisin s'est-il arrêté au milieu du service à l'église ? Parce qu'il voulait se lancer dans le commerce du vin !"},
+					"de": {"joke": "Warum blieb die Traube mitten im Gottesdienst stehen? Weil sie ins Weinbusiness einsteigen wollte!"},
+					"ru": {"joke": "Почему виноград остановился посреди церковной службы? Потому что он хотел заняться винным бизнесом!"}
+				  },
+				  {
+					"en": {"joke": "What is the relationship between Jesus and a portrait of Jesus? They both hang with nails."},
+					"tr": {"joke": "Hazreti İsa ile Hazreti İsa portresi arasındaki ilişki nedir? İkisi de çivi ile asılır."},
+					"es": {"joke": "¿Cuál es la relación entre Jesús y un retrato de Jesús? Ambos cuelgan con clavos."},
+					"pt": {"joke": "Qual é a relação entre Jesus e um retrato de Jesus? Ambos penduram com pregos."},
+					"fr": {"joke": "Quelle est la relation entre Jésus et un portrait de Jésus ? Ils sont tous les deux suspendus avec des clous."},
+					"de": {"joke": "Was ist die Beziehung zwischen Jesus und einem Porträt von Jesus? Beide hängen mit Nägeln."},
+					"ru": {"joke": "Какова связь между Иисусом и портретом Иисуса? Оба вешаются на гвоздях."}
+				  },
+				  {
+					"en": {"joke": "Why did Noah ever have to rewrite his books? Because he always had a flood of new ideas!"},
+					"tr": {"joke": "Nuh neden kitaplarını sürekli yeniden yazmak zorunda kaldı? Çünkü her zaman yeni fikirlerin seline kapıldı!"},
+					"es": {"joke": "¿Por qué Noé tuvo que reescribir sus libros constantemente? ¡Porque siempre tenía un diluvio de nuevas ideas!"},
+					"pt": {"joke": "Por que Noé sempre teve que reescrever seus livros? Porque ele sempre tinha uma enchente de novas ideias!"},
+					"fr": {"joke": "Pourquoi Noé a-t-il toujours dû réécrire ses livres ? Parce qu'il avait toujours un déluge de nouvelles idées !"},
+					"de": {"joke": "Warum musste Noah ständig seine Bücher neu schreiben? Weil er immer eine Flut neuer Ideen hatte!"},
+					"ru": {"joke": "Почему Ной постоянно должен был переписывать свои книги? Потому что у него всегда был потоп новых идей!"}
+				  },
+				  {
+					"en": {"joke": "How is holy water made? Boiled in hell!"},
+					"tr": {"joke": "Kutsal su nasıl yapılır? Cehennemde kaynatılarak!"},
+					"es": {"joke": "¿Cómo se hace el agua bendita? ¡Hervida en el infierno!"},
+					"pt": {"joke": "Como é feita a água benta? Fervida no inferno!"},
+					"fr": {"joke": "Comment est faite l'eau bénite ? Bouillie en enfer !"},
+					"de": {"joke": "Wie wird heiliges Wasser hergestellt? Gekocht in der Hölle!"},
+					"ru": {"joke": "Как делается святая вода? Кипятится в аду!"}
+				  },
+				  {
+					"en": {"joke": "Why don't angels play hide and seek? Because they always get found in heaven!"},
+					"tr": {"joke": "Melekler neden saklambaç oynamaz? Çünkü her zaman cennette bulunurlar!"},
+					"es": {"joke": "¿Por qué los ángeles no juegan al escondite? ¡Porque siempre los encuentran en el cielo!"},
+					"pt": {"joke": "Por que os anjos não brincam de esconde-esconde? Porque sempre são encontrados no céu!"},
+					"fr": {"joke": "Pourquoi les anges ne jouent-ils pas à cache-cache ? Parce qu'ils sont toujours trouvés au paradis !"},
+					"de": {"joke": "Warum spielen Engel kein Verstecken? Weil sie immer im Himmel gefunden werden!"},
+					"ru": {"joke": "Почему ангелы не играют в прятки? Потому что их всегда находят на небесах!"}
+				  }
+			 ]
+		  }
+	   },
+	   "programming":{
+		  "genres":{
+			 "javascript":[
+				{
+				   "en":{"joke":"Why do JavaScript developers love nature? Because they love to find bug."},
+				   "tr":{"joke":"JavaScript geliştiricileri neden doğayı sever? Çünkü bug bulmayı severler."},
+				   "es":{"joke":"¿Por qué a los desarrolladores de JavaScript les encanta la naturaleza? Porque les encanta encontrar errores."},
+				   "pt":{"joke":"Por que os desenvolvedores de JavaScript adoram a natureza? Porque adoram encontrar bugs."},
+				   "fr":{"joke":"Pourquoi les développeurs JavaScript aiment-ils la nature ? Parce qu'ils adorent trouver des bugs."},
+				   "de":{"joke":"Warum lieben JavaScript-Entwickler die Natur? Weil sie gerne Fehler finden."},
+				   "ru":{"joke":"Почему разработчики JavaScript любят природу? Потому что им нравится находить ошибки."}
+				 
+				},
+				{
+					"en":{"joke":"Why was the JavaScript developer's life so eventful? Because he kept firing events."},
+					"tr":{"joke":"JavaScript geliştiricisinin hayatı neden bu kadar olaylı? Çünkü sürekli events tetikliyor."},
+					"es":{"joke":"¿Por qué la vida del desarrollador de JavaScript era tan llena de eventos? Porque seguía disparando eventos."},
+					"pt":{"joke":"Por que a vida do desenvolvedor JavaScript era tão cheia de eventos? Porque ele continuava disparando eventos."},
+					"fr":{"joke":"Pourquoi la vie du développeur JavaScript était-elle si pleine d'événements ? Parce qu'il n'arrêtait pas de déclencher des événements."},
+					"de":{"joke":"Warum war das Leben des JavaScript-Entwicklers so ereignisreich? Weil er ständig Events auslöste."},
+					"ru":{"joke":"Почему жизнь разработчика JavaScript была такой насыщенной событиями? Потому что он постоянно вызывал события."}
+				 },				 
+				 {
+					"en":{"joke":"Why are JavaScript developers so good at sports? Because they always catch errors."},
+					"tr":{"joke":"JavaScript geliştiricileri neden sporda bu kadar iyi? Çünkü sürekli hata yakalarlar."},
+					"es":{"joke":"¿Por qué los desarrolladores de JavaScript son tan buenos en deportes? Porque siempre atrapan errores."},
+					"pt":{"joke":"Por que os desenvolvedores de JavaScript são tão bons em esportes? Porque eles sempre pegam erros."},
+					"fr":{"joke":"Pourquoi les développeurs JavaScript sont-ils si bons en sport ? Parce qu'ils attrapent toujours des erreurs."},
+					"de":{"joke":"Warum sind JavaScript-Entwickler so gut im Sport? Weil sie immer Fehler abfangen."},
+					"ru":{"joke":"Почему разработчики JavaScript так хороши в спорте? Потому что они всегда ловят ошибки."}
+				 },				 
+				 {
+					"en":{"joke":"Why do JavaScript developers prefer dark mode? Because light attracts bugs."},
+					"tr":{"joke":"JavaScript geliştiricileri neden karanlık modu tercih eder? Çünkü ışık böcekleri çeker."},
+					"es":{"joke":"¿Por qué los desarrolladores de JavaScript prefieren el modo oscuro? Porque la luz atrae errores."},
+					"pt":{"joke":"Por que os desenvolvedores de JavaScript preferem o modo escuro? Porque a luz atrai bugs."},
+					"fr":{"joke":"Pourquoi les développeurs JavaScript préfèrent-ils le mode sombre ? Parce que la lumière attire les bugs."},
+					"de":{"joke":"Warum bevorzugen JavaScript-Entwickler den Dunkelmodus? Weil Licht Bugs anzieht."},
+					"ru":{"joke":"Почему разработчики JavaScript предпочитают тёмный режим? Потому что свет привлекает багов."}
+				 },
+				 {
+					"en":{"joke":"Why do JavaScript developers wear glasses? Because they can't C#."},
+					"tr":{"joke":"JavaScript geliştiricileri neden gözlük takar? Çünkü C# (keskin) göremezler."},
+					"es":{"joke":"¿Por qué los desarrolladores de JavaScript usan gafas? Porque no pueden ver C#."},
+					"pt":{"joke":"Por que os desenvolvedores de JavaScript usam óculos? Porque não conseguem ver C#."},
+					"fr":{"joke":"Pourquoi les développeurs JavaScript portent-ils des lunettes ? Parce qu'ils ne voient pas le C#."},
+					"de":{"joke":"Warum tragen JavaScript-Entwickler eine Brille? Weil sie C# nicht sehen können."},
+					"ru":{"joke":"Почему разработчики JavaScript носят очки? Потому что они не видят C#."}
+				 },
+				 {
+					"en":{"joke":"What do you call a JavaScript library that gets your heart racing? React!"},
+					"tr":{"joke":"Kalbini hızlandıran bir JavaScript kütüphanesine ne denir? React!"},
+					"es":{"joke":"¿Cómo llamas a una biblioteca de JavaScript que acelera tu corazón? ¡React!"},
+					"pt":{"joke":"Como você chama uma biblioteca JavaScript que faz seu coração disparar? React!"},
+					"fr":{"joke":"Comment appelez-vous une bibliothèque JavaScript qui fait battre votre cœur ? React!"},
+					"de":{"joke":"Wie nennt man eine JavaScript-Bibliothek, die dein Herz höher schlagen lässt? React!"},
+					"ru":{"joke":"Как называется библиотека JavaScript, от которой у тебя учащается сердцебиение? React!"}
+				 },
+				 {
+					"en":{"joke":"What’s a JavaScript developer's favorite kind of coffee? Java!"},
+					"tr":{"joke":"JavaScript geliştiricisinin en sevdiği kahve türü nedir? Java!"},
+					"es":{"joke":"¿Cuál es el tipo de café favorito de un desarrollador de JavaScript? ¡Java!"},
+					"pt":{"joke":"Qual é o tipo de café favorito de um desenvolvedor de JavaScript? Java!"},
+					"fr":{"joke":"Quel est le type de café préféré d'un développeur JavaScript ? Java!"},
+					"de":{"joke":"Was ist die Lieblingskaffeesorte eines JavaScript-Entwicklers? Java!"},
+					"ru":{"joke":"Какой любимый вид кофе у разработчика JavaScript? Java!"}
+				 },
+				 {
+					"en":{"joke":"What’s a JavaScript developer’s favorite type of dessert? Cookies!"},
+					"tr":{"joke":"JavaScript geliştiricisinin en sevdiği tatlı nedir? Kuki!"},
+					"es":{"joke":"¿Cuál es el postre favorito de un desarrollador de JavaScript? ¡Cookies!"},
+					"pt":{"joke":"Qual é o tipo de sobremesa favorito de um desenvolvedor JavaScript? Cookies!"},
+					"fr":{"joke":"Quel est le type de dessert préféré d'un développeur JavaScript ? Les cookies!"},
+					"de":{"joke":"Was ist die Lieblingsnachspeise eines JavaScript-Entwicklers? Cookies!"},
+					"ru":{"joke":"Какой любимый десерт у разработчика JavaScript? Cookies!"}
+				 },
+				 {
+					"en":{"joke":"Why do JavaScript developers make bad dancers? Because they can't handle async moves."},
+					"tr":{"joke":"JavaScript geliştiricileri neden kötü dans eder? Çünkü asenkron hareketleri yapamazlar."},
+					"es":{"joke":"¿Por qué los desarrolladores de JavaScript son malos bailarines? Porque no pueden manejar movimientos asíncronos."},
+					"pt":{"joke":"Por que os desenvolvedores de JavaScript são maus dançarinos? Porque eles não conseguem lidar com movimentos assíncronos."},
+					"fr":{"joke":"Pourquoi les développeurs JavaScript ne sont-ils pas de bons danseurs ? Parce qu'ils ne peuvent pas gérer les mouvements asynchrones."},
+					"de":{"joke":"Warum sind JavaScript-Entwickler schlechte Tänzer? Weil sie asynchrone Bewegungen nicht handhaben können."},
+					"ru":{"joke":"Почему разработчики JavaScript плохо танцуют? Потому что они не могут справиться с асинхронными движениями."}
+				 },
+				 {
+					"en":{"joke":"Why did the JavaScript developer go to therapy? Because they had too many issues to resolve!"},
+					"tr":{"joke":"Bir JavaScript geliştiricisi neden terapiye gider? Çünkü çözülmesi gereken çok fazla sorunu vardır!"},
+					"es":{"joke":"¿Por qué el desarrollador de JavaScript fue a terapia? ¡Porque tenía demasiados problemas que resolver!"},
+					"pt":{"joke":"Por que o desenvolvedor de JavaScript foi para a terapia? Porque ele tinha muitos problemas para resolver!"},
+					"fr":{"joke":"Pourquoi le développeur JavaScript est-il allé en thérapie ? Parce qu'il avait trop de problèmes à résoudre !"},
+					"de":{"joke":"Warum ging der JavaScript-Entwickler zur Therapie? Weil er zu viele Probleme zu lösen hatte!"},
+					"ru":{"joke":"Почему разработчик JavaScript пошел на терапию? Потому что у него было слишком много нерешенных проблем!"}
+				 }				 
+			 ],
+			 "python":[
+				{
+					"en":{"joke":"Python developers are allergic to the sun because they always get sunburn errors."},
+					"tr":{"joke":"Python geliştiricileri güneşe karşı alerjiktir çünkü her zaman sunburn (güneş yanığı) hatası alırlar."},
+					"es":{"joke":"Los desarrolladores de Python son alérgicos al sol porque siempre tienen errores de quemaduras solares."},
+					"pt":{"joke":"Os desenvolvedores de Python são alérgicos ao sol porque sempre recebem erros de queimaduras solares."},
+					"fr":{"joke":"Les développeurs Python sont allergiques au soleil car ils attrapent toujours des erreurs de coup de soleil."},
+					"de":{"joke":"Python-Entwickler sind allergisch gegen die Sonne, weil sie immer Sonnenbrandfehler bekommen."},
+					"ru":{"joke":"Разработчики Python аллергичны к солнцу, потому что у них всегда возникают ошибки солнечных ожогов."}
+				 },
+				 {
+					"en":{"joke":"What do you call a developer who keeps a snake in his house? Python developer."},
+					"tr":{"joke":"Evinde yılan besleyen geliştiriye ne denir? Python geliştirici."},
+					"es":{"joke":"¿Cómo llamas a un desarrollador que tiene una serpiente en su casa? Desarrollador de Python."},
+					"pt":{"joke":"Como você chama um desenvolvedor que mantém uma cobra em sua casa? Desenvolvedor Python."},
+					"fr":{"joke":"Comment appelle-t-on un développeur qui garde un serpent chez lui ? Développeur Python."},
+					"de":{"joke":"Wie nennt man einen Entwickler, der eine Schlange in seinem Haus hält? Python-Entwickler."},
+					"ru":{"joke":"Как назвать разработчика, который держит змею у себя дома? Разработчик Python."}
+				 },
+				 {
+					"en":{"joke":"Why do Python developers prefer to work alone? Because they don't like sharing their workspace!"},
+					"tr":{"joke":"Python geliştiricileri neden yalnız çalışmayı tercih eder? Çünkü workspacelerini paylaşmayı sevmezler!"},
+					"es":{"joke":"¿Por qué los desarrolladores de Python prefieren trabajar solos? ¡Porque no les gusta compartir su espacio de trabajo!"},
+					"pt":{"joke":"Por que os desenvolvedores de Python preferem trabalhar sozinhos? Porque eles não gostam de compartilhar seu espaço de trabalho!"},
+					"fr":{"joke":"Pourquoi les développeurs Python préfèrent-ils travailler seuls ? Parce qu'ils n'aiment pas partager leur espace de travail !"},
+					"de":{"joke":"Warum arbeiten Python-Entwickler lieber allein? Weil sie ihren Arbeitsbereich nicht gerne teilen!"},
+					"ru":{"joke":"Почему разработчики Python предпочитают работать в одиночку? Потому что они не любят делиться своим рабочим пространством!"}
+				 },
+				 {
+					"en":{"joke":"Why did the Python developer go broke? Because he used up all his cents on PyPi!"},
+					"tr":{"joke":"Python geliştiricisi neden iflas etti? Çünkü tüm cent'lerini PyPi'de harcadı."},
+					"es":{"joke":"¿Por qué el desarrollador de Python se arruinó? ¡Porque gastó todos sus centavos en PyPi!"},
+					"pt":{"joke":"Por que o desenvolvedor de Python faliu? Porque ele usou todos os seus centavos no PyPi!"},
+					"fr":{"joke":"Pourquoi le développeur Python a-t-il fait faillite ? Parce qu'il a dépensé tous ses centimes sur PyPi !"},
+					"de":{"joke":"Warum ging der Python-Entwickler pleite? Weil er all seine Cent auf PyPi ausgegeben hat!"},
+					"ru":{"joke":"Почему разработчик Python разорился? Потому что он потратил все свои центы на PyPi!"}
+				 },
+				 {
+					"en": {"joke": "Why do Python developers make great chefs? Because they know how to slice and dice efficiently!"},
+					"tr": {"joke": "Python geliştiricileri neden harika aşçılar olur? Çünkü dilimlemeyi (slice) ve doğramayı (dice) çok iyi bilirler!"},
+					"es": {"joke": "¿Por qué los desarrolladores de Python son excelentes chefs? ¡Porque saben cómo cortar y picar eficientemente!"},
+					"pt": {"joke": "Por que os desenvolvedores de Python são ótimos chefs? Porque sabem fatiar e picar eficientemente!"},
+					"fr": {"joke": "Pourquoi les développeurs Python font de grands chefs ? Parce qu'ils savent comment trancher et découper efficacement !"},
+					"de": {"joke": "Warum sind Python-Entwickler großartige Köche? Weil sie wissen, wie man effizient schneidet und würfelt!"},
+					"ru": {"joke": "Почему разработчики Python отличные повара? Потому что они знают, как эффективно нарезать и измельчать!"}
+				}				
+			 ],
+			 "php":[
+				{
+					"en":{"joke":"Why do PHP developers have such a hard time sleeping? Because they always forget to close the div!"},
+					"tr":{"joke":"PHP geliştiricileri neden uyumakta bu kadar zorlanır? Çünkü div'i kapatmayı unuturlar!"},
+					"es":{"joke":"¿Por qué los desarrolladores de PHP tienen tantos problemas para dormir? ¡Porque siempre olvidan cerrar el div!"},
+					"pt":{"joke":"Por que os desenvolvedores de PHP têm tanta dificuldade para dormir? Porque eles sempre esquecem de fechar o div!"},
+					"fr":{"joke":"Pourquoi les développeurs PHP ont-ils tant de mal à dormir ? Parce qu'ils oublient toujours de fermer la div !"},
+					"de":{"joke":"Warum haben PHP-Entwickler solche Probleme beim Schlafen? Weil sie immer vergessen, das div zu schließen!"},
+					"ru":{"joke":"Почему разработчикам PHP так трудно спать? Потому что они всегда забывают закрыть div!"}
+				 },
+				 {
+					"en":{"joke":"What do you call a developer with echonomic problems? PHP developer."},
+					"tr":{"joke":"Echonomik sorunları olan geliştiricilere ne denir? PHP geliştiricisi."},
+					"es":{"joke":"¿Cómo llamas a un desarrollador con problemas echonómicos? Desarrollador de PHP."},
+					"pt":{"joke":"Como você chama um desenvolvedor com problemas econômicos? Desenvolvedor PHP."},
+					"fr":{"joke":"Comment appelle-t-on un développeur avec des problèmes économiques ? Développeur PHP."},
+					"de":{"joke":"Wie nennt man einen Entwickler mit wirtschaftlichen Problemen? PHP-Entwickler."},
+					"ru":{"joke":"Как назвать разработчика с экономическими проблемами? Разработчик PHP."}
+				 },
+				 {
+					"en":{"joke":"Why did the PHP developer get arrested? Because they were caught stealing cookies!"},
+					"tr":{"joke":"Bir PHP geliştiricisi neden tutuklanmış? Çünkü kukileri çalmakla suçlanmış!"},
+					"es":{"joke":"¿Por qué arrestaron al desarrollador de PHP? ¡Porque lo atraparon robando cookies!"},
+					"pt":{"joke":"Por que o desenvolvedor de PHP foi preso? Porque ele foi pego roubando cookies!"},
+					"fr":{"joke":"Pourquoi le développeur PHP a-t-il été arrêté ? Parce qu'il a été surpris en train de voler des cookies !"},
+					"de":{"joke":"Warum wurde der PHP-Entwickler verhaftet? Weil er beim Stehlen von Cookies erwischt wurde!"},
+					"ru":{"joke":"Почему разработчик PHP был арестован? Потому что его поймали на краже cookies!"}
+				 },
+				 {
+					"en": {"joke": "Why do PHP developers have the potential to be great detectives? Because they know how to follow breadcrumbs!"},
+					"tr": {"joke": "PHP geliştiricileri neden harika dedektif olma potansiyeline sahiptir? Çünkü kırıntıları (breadcrumbs) nasıl takip edeceklerini iyi bilirler!"},
+					"es": {"joke": "¿Por qué los desarrolladores de PHP tienen el potencial de ser grandes detectives? ¡Porque saben cómo seguir las migajas de pan!"},
+					"pt": {"joke": "Por que os desenvolvedores de PHP têm o potencial para serem grandes detetives? Porque eles sabem como seguir as migalhas!"},
+					"fr": {"joke": "Pourquoi les développeurs PHP ont-ils le potentiel d'être de grands détectives ? Parce qu'ils savent comment suivre les miettes de pain!"},
+					"de": {"joke": "Warum haben PHP-Entwickler das Potenzial, großartige Detektive zu sein? Weil sie wissen, wie man Brotkrumen folgt!"},
+					"ru": {"joke": "Почему у разработчиков PHP есть потенциал стать отличными детективами? Потому что они знают, как следовать за крошками хлеба!"}
+				},
+				{
+					"en": {"joke": "Why did the PHP developer get stuck in the bathroom? Because he couldn't find the flush function!"},
+					"tr": {"joke": "PHP geliştiricisi tuvalette neden sıkıştı? Çünkü flush fonksiyonunu bulamadı!"},
+					"es": {"joke": "¿Por qué el desarrollador de PHP quedó atrapado en el baño? ¡Porque no pudo encontrar la función de descarga!"},
+					"pt": {"joke": "Por que o desenvolvedor PHP ficou preso no banheiro? Porque não conseguiu encontrar a função de descarga!"},
+					"fr": {"joke": "Pourquoi le développeur PHP est-il resté coincé dans la salle de bain ? Parce qu'il n'a pas pu trouver la fonction de vidange !"},
+					"de": {"joke": "Warum ist der PHP-Entwickler im Badezimmer stecken geblieben? Weil er die Spülungsfunktion nicht finden konnte!"},
+					"ru": {"joke": "Почему разработчик PHP застрял в ванной комнате? Потому что он не смог найти функцию сброса!"}
+				  }
+								   
+			 ]
+		  }
+	   }
+	}
+ }
