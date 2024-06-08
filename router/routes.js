@@ -9,6 +9,10 @@ const categories = Object.keys(json);
 const getRandomElement = (arr) => arr[Math.floor(Math.random() * arr.length)];
 
 router.get("/", (req, res) => {
+    return res.redirect("/joke");
+});
+
+router.get("/joke", (req, res) => {
     return res.json({
         title: "Welcome to the Joke API by arg0WAK",
         description:
