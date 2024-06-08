@@ -1,7 +1,16 @@
 services:
     web:
-        build: .
-        image: joke-api:latest
-        container_name: main
+        image: arg0wak/joke-api:latest
+        container_name: joke-api-web
         ports:
             - "3000:3000"
+        environment:
+            - PORT=3000
+        deploy:
+            replicas: 1
+            resources:
+                limits:
+                    cpus: "0.50"
+                    memory: 512M
+            restart_policy:
+                condition: on-failure
