@@ -21,6 +21,10 @@
 
 A simple API that returns a random joke with multi languages. Free and Open Source Joke API, entirely self-hosted.
 
+  <a href="https://api.requestx.dev/joke" target="_blank">
+     <img alt="Try it API" src="https://img.shields.io/badge/Try%20it%20API-on%20RequestX-magenta?logo=axios"/>
+    </a>
+
 ## API Reference
 
 #### Get Categories List
@@ -36,11 +40,11 @@ A simple API that returns a random joke with multi languages. Free and Open Sour
     "title": "Welcome to the Joke API by arg0WAK",
     "description": "A simple API that returns a random joke",
     "endpoints": [
-    {
-        "url": "/:category",
-        "method": "GET",
-        "description": "Return jokes from /:category"
-    }
+        {
+            "url": "/:category",
+            "method": "GET",
+            "description": "Return jokes from /:category"
+        }
     ]
 }
 ```
@@ -55,25 +59,25 @@ A simple API that returns a random joke with multi languages. Free and Open Sour
 
 ```json
 {
-  "genres": {
-    "political": [
-        {
-        "en": { "joke": "English joke about politics." },
-        "tr": { "joke": "Türkçe politik şaka." },
-        "es": { "joke": "Chiste político en español." },
-        "pt": { "joke": "Piada política em português." },
-        "fr": { "joke": "Blague politique en français." },
-        "de": { "joke": "Politischer Witz auf Deutsch." },
-        "ru": { "joke": "Политическая шутка на русском." }
-        }
-    ]
-  }
+    "genres": {
+        "political": [
+            {
+                "en": { "joke": "English joke about politics." },
+                "tr": { "joke": "Türkçe politik şaka." },
+                "es": { "joke": "Chiste político en español." },
+                "pt": { "joke": "Piada política em português." },
+                "fr": { "joke": "Blague politique en français." },
+                "de": { "joke": "Politischer Witz auf Deutsch." },
+                "ru": { "joke": "Политическая шутка на русском." }
+            }
+        ]
+    }
 }
 ```
 
-## Postman Collection 
-[Open with Postman](https://www.postman.com/arg0wak/workspace/jokeapi/collection/26553043-bc1d0835-2999-4bb8-8d48-97e6d9b2f77c)
+## Postman Collection
 
+[Open with Postman](https://www.postman.com/arg0wak/workspace/jokeapi/collection/26553043-bc1d0835-2999-4bb8-8d48-97e6d9b2f77c)
 
 ## Swagger Execution
 
