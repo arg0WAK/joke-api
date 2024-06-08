@@ -21,10 +21,6 @@ router.get("/", (req, res) => {
     });
 });
 
-router.get("/health", (req, res) => {
-    return res.json({ status: "UP" });
-});
-
 /**
  * @swagger
  * /{category}:

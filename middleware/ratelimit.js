@@ -10,7 +10,7 @@ const limiter = rateLimit({
         });
     },
     skip: (req) => {
-        const skipUrls = ["/any", "/health", "/docs"];
+        const skipUrls = ["/joke/any", "/health", "/docs", "/"];
         return skipUrls.some((url) => req.originalUrl === url);
     },
 });

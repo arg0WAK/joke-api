@@ -28,8 +28,16 @@ app.listen(PORT, () => {
 
 app.use(limiter);
 
+app.get("/", (req, res) => {
+    return res.redirect("/joke");
+});
+
+app.get("/health", (req, res) => {
+    return res.json({ status: "UP" });
+});
+
 app.use(
-    "/",
+    "/joke",
     (req, res, next) => {
         if (req.rateLimit) {
             console.log(`
