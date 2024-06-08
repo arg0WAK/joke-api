@@ -11,12 +11,11 @@
     <a href="#" >
         <img alt="Docker" src="https://img.shields.io/badge/-Dockerized-blue?logo=docker&logoColor=white"/>
     </a>
-        <a href="#">
-        <img alt="Actions Status" src="https://github.com/arg0WAK/joke-api/actions/workflows/publish-docker.yml/badge.svg"/>
+        <a href="https://github.com/arg0WAK/joke-api/actions/workflows/publish-docker.yml">
+        <img alt="Publish Docker Image" src="https://github.com/arg0WAK/joke-api/actions/workflows/publish-docker.yml/badge.svg?branch=main"/>
     </a>
 </span>
 <br/><br/>
-
 # JokeAPI
 
 A simple API that returns a random joke with multi languages. Free and Open Source Joke API, entirely self-hosted.
@@ -33,15 +32,15 @@ A simple API that returns a random joke with multi languages. Free and Open Sour
 
 ```json
 {
-	"title": "Welcome to the Joke API by arg0WAK",
-	"description": "A simple API that returns a random joke",
-	"endpoints": [
-		{
-			"url": "/:category",
-			"method": "GET",
-			"description": "Return jokes from /:category"
-		}
-	]
+    "title": "Welcome to the Joke API by arg0WAK",
+    "description": "A simple API that returns a random joke",
+    "endpoints": [
+    {
+        "url": "/:category",
+        "method": "GET",
+        "description": "Return jokes from /:category"
+    }
+    ]
 }
 ```
 
@@ -55,19 +54,19 @@ A simple API that returns a random joke with multi languages. Free and Open Sour
 
 ```json
 {
-	"genres": {
-		"political": [
-			{
-			"en": {"joke": "English joke about politics."},
-			"tr": {"joke": "Türkçe politik şaka."},
-            "es": {"joke": "Chiste político en español."},
-            "pt": {"joke": "Piada política em português."},
-            "fr": {"joke": "Blague politique en français."},
-            "de": {"joke": "Politischer Witz auf Deutsch."},
-            "ru": {"joke": "Политическая шутка на русском."}
-			}
-		]
-	}
+"genres": {
+    "political": [
+        {
+        "en": { "joke": "English joke about politics." },
+        "tr": { "joke": "Türkçe politik şaka." },
+        "es": { "joke": "Chiste político en español." },
+        "pt": { "joke": "Piada política em português." },
+        "fr": { "joke": "Blague politique en français." },
+        "de": { "joke": "Politischer Witz auf Deutsch." },
+        "ru": { "joke": "Политическая шутка на русском." }
+        }
+    ]
+}
 }
 ```
 
@@ -145,11 +144,11 @@ $ docker pull arg0wak/joke-api
 
 ## Roadmap
 
--  ⌛ API key integration.
--  ⌛ Extended Rate-Limit.
--  ⌛ Blacklist flags.
--  ⌛ New joke categories.
--  ⌛ New languages.
--  ⌛ Front-end development for joke suggestions.
+-   ⌛ API key integration.
+-   ⌛ Extended Rate-Limit.
+-   ⌛ Blacklist flags.
+-   ⌛ New joke categories.
+-   ⌛ New languages.
+-   ⌛ Front-end development for joke suggestions.
 
-*Enjoy it.*
+_Enjoy it._
