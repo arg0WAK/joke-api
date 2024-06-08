@@ -9,15 +9,20 @@ const categories = Object.keys(json);
 const getRandomElement = (arr) => arr[Math.floor(Math.random() * arr.length)];
 
 router.get("/", (req, res) => {
-    res.json({
+    return res.json({
         title: "Welcome to the Joke API by arg0WAK",
-        description: "A simple API that returns a random joke with multi languages. Free and Open Source Joke API, entirely self-hosted.",
+        description:
+            "A simple API that returns a random joke with multi languages. Free and Open Source Joke API, entirely self-hosted.",
         endpoints: categories.map((category) => ({
             url: `/${category}`,
             method: "GET",
             description: `Return jokes from ${category}`,
         })),
     });
+});
+
+router.get("/health", (req, res) => {
+    return res.status(200).json({ status: "UP" });
 });
 
 /**
@@ -72,13 +77,17 @@ router.get("/:category", (req, res) => {
         const randomCategory = getRandomElement(categories);
         const queryParams = new URLSearchParams(req.query);
 
-        return res.redirect(randomCategory + (queryParams ? `?${queryParams}` : ""));
+        return res.redirect(
+            randomCategory + (queryParams ? `?${queryParams}` : ""),
+        );
+    } else {
     }
 
     const response = json[category];
     const selectedLanguages = response.genres;
 
-    if (!response) return res.status(404).json({ error: "Category not found!" });
+    if (!response)
+        return res.status(404).json({ error: "Category not found!" });
 
     if (langIndex && !typeIndex) {
         const allLanguages = new Set();
@@ -92,11 +101,14 @@ router.get("/:category", (req, res) => {
         const languageList = Array.from(allLanguages);
 
         if (!languageList.includes(langIndex)) {
-            return res.status(404).json({ error: "Translation key not found!" });
+            return res
+                .status(404)
+                .json({ error: "Translation key not found!" });
         }
 
-        const allJokes = Object.values(selectedLanguages).flatMap((languageGroup) =>
-            languageGroup.map((jokeObj) => jokeObj[langIndex]?.joke)
+        const allJokes = Object.values(selectedLanguages).flatMap(
+            (languageGroup) =>
+                languageGroup.map((jokeObj) => jokeObj[langIndex]?.joke),
         );
 
         return random === "true"
@@ -105,31 +117,40 @@ router.get("/:category", (req, res) => {
     }
 
     if (!langIndex && !typeIndex && random === "true") {
-        return res.json({ error: "At least one translation query must be defined!" });
+        return res.json({
+            error: "At least one translation query must be defined!",
+        });
     }
 
     if (typeIndex) {
         const languageJokes = selectedLanguages[typeIndex];
-        if (!languageJokes) return res.status(404).json({ error: "Type not found!" });
+        if (!languageJokes)
+            return res.status(404).json({ error: "Type not found!" });
 
         if (!langIndex) {
             return res.json(
                 random === "true"
-                    ? { error: "At least one translation query must be defined!" }
-                    : languageJokes
+                    ? {
+                          error: "At least one translation query must be defined!",
+                      }
+                    : languageJokes,
             );
         }
 
-        const translatedJokes = languageJokes.map((joke) => joke[langIndex]?.joke).filter(Boolean);
+        const translatedJokes = languageJokes
+            .map((joke) => joke[langIndex]?.joke)
+            .filter(Boolean);
         if (translatedJokes.length === 0)
-            return res.status(404).json({ error: "Translation key not found!" });
+            return res
+                .status(404)
+                .json({ error: "Translation key not found!" });
 
         return random === "true"
             ? res.json({ joke: getRandomElement(translatedJokes) })
             : res.json({ [langIndex]: translatedJokes });
     }
 
-    res.json(response);
+    return res.json(response);
 });
 
 export default router;
