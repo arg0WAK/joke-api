@@ -4,8 +4,7 @@
 <br/>
 
 # JokeAPI
-<span>A simple API that returns a random joke with multi languages. Free and Open Source Joke API, entirely self-hosted.</span>
-
+<span><p>A simple API that returns a random joke with multi languages. Free and Open Source Joke API, entirely self-hosted.</p></span>
   <a href="https://api.requestx.dev/joke">
      <img alt="Try it API" src="https://img.shields.io/badge/Try%20it%20API-on%20RequestX-magenta?logo=axios"/>
     </a>
