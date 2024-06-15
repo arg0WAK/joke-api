@@ -1,10 +1,8 @@
 <span>
 <a href="#"><img alt="Node Version 20.14.0" src="https://img.shields.io/badge/Node-20.14.0-nodedotjs?logo=nodedotjs&logoColor=white"/></a> <a href="#"><img alt="Swagger Documentation" src="https://img.shields.io/badge/Swagger-/docs-swagger?logo=swagger"/></a> <a href="#"><img alt="Yarn" src="https://img.shields.io/badge/Yarn-1.22-blue?logo=yarn&logoColor=white"/></a> <a href="#"><img alt="Docker" src="https://img.shields.io/badge/-Dockerized-blue?logo=docker&logoColor=white"/></a> <a href="https://github.com/arg0WAK/joke-api/actions/workflows/publish-docker.yml"><img alt="Publish Docker Image" src="https://github.com/arg0WAK/joke-api/actions/workflows/publish-docker.yml/badge.svg?branch=main"/></a>
-</span>
-
-# JokeAPI
-<span>A simple API that returns a random joke with multi languages. Free and Open Source Joke API, entirely self-hosted.</span>
-
+</span><br/>
+<h1>JokeAPI</h1>
+<span>A simple API that returns a random joke with multi languages. Free and Open Source Joke API, entirely self-hosted.</span><br/><br/>
   <a href="https://api.requestx.dev/joke">
      <img alt="Try it API" src="https://img.shields.io/badge/Try%20it%20API-on%20RequestX-magenta?logo=axios"/>
     </a>
