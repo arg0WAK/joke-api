@@ -8,22 +8,26 @@ const categories = Object.keys(json);
 
 const getRandomElement = (arr) => arr[Math.floor(Math.random() * arr.length)];
 
-router.get("/", (req, res) => {
+router.get("/joke", (req, res) => {
     return res.json({
         title: "Welcome to the Joke API by arg0WAK",
         description:
             "A simple API that returns a random joke with multi languages. Free and Open Source Joke API, entirely self-hosted.",
         endpoints: categories.map((category) => ({
-            url: `/${category}`,
+            url: `/joke/${category}`,
             method: "GET",
             description: `Return jokes from ${category}`,
         })),
     });
 });
 
+router.get("/joke/health", (req, res) => {
+    return res.json({ status: "UP" });
+});
+
 /**
  * @swagger
- * /{category}:
+ * /joke/{category}:
  *   get:
  *     summary: Get jokes by category
  *     description: Returns jokes based on category, language, and translation
@@ -65,7 +69,7 @@ router.get("/", (req, res) => {
  *       400:
  *         description: Bad request
  */
-router.get("/:category", (req, res) => {
+router.get("/joke/:category", (req, res) => {
     const { category } = req.params;
     const { type: typeIndex, lang: langIndex, random } = req.query;
     const response = json[category];
